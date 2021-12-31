@@ -1,0 +1,14 @@
+
+/* @layer components{} can be ignored. */
+
+@layer components {
+  .main {
+		@apply h-screen flex flex-col justify-center items-center;
+    background-color: pink;
+
+    & h1 {
+      @apply text-center text-7xl;
+			color: red;
+    }
+  }
+}
